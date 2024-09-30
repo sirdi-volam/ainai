@@ -1,0 +1,32 @@
+.main-container {
+  font-family: var(--font-family);
+  display: flex;
+  width: var(--width1280);
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 60px;
+  width: 90%;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.button-pagination {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  color: var(--text-color);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(13, 13, 13);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
