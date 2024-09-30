@@ -1,8 +1,8 @@
 import './Story.css'
-import story1 from './images/story1.png'
-import story2 from './images/story2.png'
-import story3 from './images/story3.png'
-import story4 from './images/story4.png'
+import story1 from '../assets/images/story1.png'
+import story2 from '../assets/images/story2.png'
+import story3 from '../assets/images/story3.png'
+import story4 from '../assets/images/story4.png'
 
 export const Story = () => {
   return (

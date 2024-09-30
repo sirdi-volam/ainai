@@ -42,8 +42,10 @@
 }
 
 .logo-text {
+  font-family: 'Comfortaa', cursive;
   color: var(--text-color-gray);
   font-size: 25px;
+  text-transform: lowercase;
 }
 
 .header-nav_item {
@@ -161,4 +163,24 @@
 
 .header-nav-right__items-avatar__profileArrow {
   color: var(--text-color-gray);
+}
+
+.button-login {
+  justify-content: center;
+  width: 68px;
+  height: 48px;
+  color: var(--text-color-gray);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  background: none;
+  background-color: rgb(31, 31, 31);
+}
+
+.button-login:hover {
+  background: rgb(66, 66, 66);
 }

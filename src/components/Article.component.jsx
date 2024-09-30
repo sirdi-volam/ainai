@@ -1,35 +1,13 @@
-import './Article.css'
-import post1 from './images/post1.jpeg'
-import post3 from './images/post3.jpeg'
-import dot from './images/dot.png'
-import postVideo from './images/post-video.png'
-import play from './images/play.png'
+import '../assets/styles/Article.css'
+import post1 from '../assets/images/article/post1.jpeg'
+import post3 from '../assets/images/article/post3.jpeg'
+import dot from '../assets/images/article/dot.png'
+import postVideo from '../assets/images/article/post-video.png'
+import play from '../assets/images/article/play.png'
 
 export const Article = () => {
   return (
     <>
-
-
-      {/* <article className="article">
-        {[...Array(5)].map(() => (
-          <Article
-            id="1"
-            title="Заголовок статьи"
-            imageUrl={post1}
-            user={{
-              avatarUrl: 'https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png',
-              name: 'Вася Пупкин',
-            }}
-            createdAt="21.06.2020"
-            viewsCount={232}
-            commentsCount={23}
-            tags={['#tag1', '#tag2']}
-            isLoading={true}
-            isEditable
-          />
-        ))}
-      </article> */}
-
 
       <article className="article">
         <div className="article-card_content">
