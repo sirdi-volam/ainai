@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './Aside.css'
+import '../assets/styles/Aside.css'
 
 export const Aside = () => {
   return (

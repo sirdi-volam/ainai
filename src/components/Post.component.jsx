@@ -1,9 +1,7 @@
-import React from 'react'
-import './Post.css'
-import { PostSkeleton } from './Skeleton'
+import '../assets/styles/Post.css'
+import { PostSkeleton } from './Skeleton.component'
 
 export const Post = ({
-  _id,
   title,
   createAt,
   imageUrl,
