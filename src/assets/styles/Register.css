@@ -1,4 +1,4 @@
-.login-container {
+.register-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@
   height: calc(100vh - 50px);
 }
 
-.login {
+.register {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
   box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.95);
 }
 
-.login-title {
+.register-title {
   font-family: Lato;
   font-size: 35px;
   font-weight: 400;
@@ -27,16 +27,15 @@
   margin-bottom: 35px;
 }
 
-.login-form {
+.register-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 90%;
-  gap: 5px;
 }
 
-.login-input {
+.register-input {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,86 +48,86 @@
   background: #333333;
   color: var(--text-color-gray);
   padding: 0 20px;
+  gap: 10px;
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
 }
 
-.login-input::placeholder {
+.register-input::placeholder {
   color: var(--text-color-gray);
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
 }
 
-.login-button {
+.register-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.register-checkbox__text {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--text-color-gray);
+}
+
+.register-checkbox__link {
+  margin-left: 5px;
+  color: var(--text-color-gray);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.register-checkbox__link:hover {
+  color: var(--text-color);
+}
+
+.register-button {
   width: 100%;
   height: 40px;
   border-radius: 8px;
   border: none;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
-  background: var(--text-color-gray);
+  background: #e1e3e6;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
   cursor: pointer;
 }
 
-.login-button:hover {
-  background: #e1e3e6;
+.register-button:hover {
+  background: var(--text-color-gray);
   color: black;
   transition: 0.5s;
 }
 
-.login-agreement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.register-agreement {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--text-color-gray);
   margin-top: 10px;
 }
 
-.login-agreement__checkbox {
-  height: 8px;
-}
-
-.login-agreement__text {
+.register-agreement__link {
+  color: var(--text-color-gray);
+  text-decoration: none;
   margin-left: 10px;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 16px;
-  color: var(--text-color-gray);
-}
-
-.login-agreement__link {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 16px;
-  color: var(--text-color-gray);
-  text-decoration: none;
-}
-
-.login-agreement__link:hover {
-  color: var(--text-color);
-}
-
-.login-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
-  color: var(--text-color-gray);
-  margin-top: 10px;
+  cursor: pointer;
 }
 
-.login-text>a {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  padding-left: 10px;
-  color: var(--text-color-gray);
-  text-decoration: none;
-}
-
-.login-text>a:hover {
+.register-agreement__link:hover {
   color: var(--text-color);
 }

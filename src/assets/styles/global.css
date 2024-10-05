@@ -3,6 +3,7 @@
 
 :root {
   --font-family: 'Roboto', sans-serif;
+  --font-family-cursive: 'Noto Sans', cursive;
   --aside-bg-color: rgb(32, 32, 32);
   --text-color: rgb(255, 255, 255);
   --text-color-gray: rgba(255, 255, 255, 0.4);
@@ -33,5 +34,10 @@ body {
 }
 
 a {
+  font-family: var(--font-family-cursive);
+  color: var(--text-color-gray);
+}
+
+a:hover {
   color: var(--text-color);
 }
