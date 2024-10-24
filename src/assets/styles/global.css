@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
-
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:regular);
 :root {
   --font-family: 'Roboto', sans-serif;
   --font-family-cursive: 'Noto Sans', cursive;
+  --font-family-cursive-2: 'Great Vibes', cursive;
   --aside-bg-color: rgb(32, 32, 32);
   --text-color: rgb(255, 255, 255);
   --text-color-gray: rgba(255, 255, 255, 0.4);

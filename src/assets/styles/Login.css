@@ -84,12 +84,12 @@
 .login-agreement {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 10px;
+  justify-content: start;
+  width: 100%;
 }
 
 .login-agreement__checkbox {
-  height: 8px;
+  height: 10px;
 }
 
 .login-agreement__text {
@@ -100,24 +100,27 @@
   color: var(--text-color-gray);
 }
 
-.login-agreement__link {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 16px;
-  color: var(--text-color-gray);
-  text-decoration: none;
-}
-
-.login-agreement__link:hover {
-  color: var(--text-color);
-}
-
-.login-text {
+.login-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   color: var(--text-color-gray);
   margin-top: 10px;
+}
+
+.login-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--text-color-gray);
 }
 
 .login-text>a {
@@ -131,4 +134,8 @@
 
 .login-text>a:hover {
   color: var(--text-color);
+}
+
+.login-text__link {
+  color: var(--text-color-gray);
 }
